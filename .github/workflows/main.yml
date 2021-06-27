@@ -27,7 +27,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          platforms: linux/amd64,linux/arm64,linux/armhf
+          platforms: linux/amd64,linux/arm64,linux/arm/v7
           tags: aagaming/greentornado:latest
       -
         name: Image digest
